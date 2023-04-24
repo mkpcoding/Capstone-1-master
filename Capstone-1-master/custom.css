@@ -1,0 +1,45 @@
+
+.navbar-nav {
+  flex-grow: 1;
+} /* Allign the screen once it's smaller*/ 
+
+.form-inline {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (min-width: 992px) {
+  .form-inline {
+    width: auto;
+  }
+}
+
+.navbar-custom .navbar-brand {
+  display: flex;
+  align-items: center; /* Alligning the position of MPStore */
+}
+
+.navbar-brand span {
+  font-size: 1.8rem;
+  color: white; /* Increase the font size of MPStore */
+}
+
+.navbar-custom .nav-link {
+  color: #fbf4f4; /* White text color for the div */
+  font-size: 1.2rem; /* Increase font size */
+}
+
+.navbar-custom .nav-link:hover {
+  color: #cccccc; /* Lighter color on hover */
+}
+
+.jumbotron {
+  background-color: white(236, 244, 244);
+}
+
+
+.navbar-custom {
+  background-color:rgb(4, 4, 4);
+  padding: 0.5rem 3rem; /* Reduce the padding of the navbar */; 
+}

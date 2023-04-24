@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="custom.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <title>E-commerce Website - Products</title>
+  </head>
+  <body>
+    <!-- Header and navbar code -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light  navbar-custom">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <span class="mr-2">MJSTORE</span>
+            <img
+              src="photos/logo4.jpg"
+              width="200"
+              height="150"
+              class="d-inline-block align-top"
+              alt="MPStore"
+            />
+          </a>
+
+          <!-- navbar code -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="checkout.html">Checkout</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Register</a>
+            </li>
+          </ul>
+          <form class="d-lg-inline-flex form-inline ms-lg-auto my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+     <!-- Main Content -->
+     <div class="container">
+        <h2>Featured Products</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="photos/apple.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">MacBook Air with M2 chip</h5>
+                <p class="card-text">
+                  From $1199 or $99.91/mo.per month for 12 mo.*
+                </p>
+                <a href="#" class="btn btn-primary" onclick="addToCart('MacBook Air with M2 chip', 1199)">Buy</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4">
+            <div class="card">
+              <img src="photos/apple2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Macbook Air with M1 Chip</h5>
+                <p class="card-text">From $1199 or $99.91/mo for 12 mo.*</p>
+                <a href="#" class="btn btn-primary" onclick="addToCart('Macbook Air with M1 Chip', 1199)">Buy</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4">
+            <div class="card">
+              <img src="photos/apple3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Macbook Pro 13"</h5>
+                <p class="card-text">From $1299 or $108/,o for 12 mo.*</p>
+                <a href="#" class="btn btn-primary" onclick="addToCart('Macbook Pro 13&quot;', 1299)">Buy</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img src="photos/apple4.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Macbook Pro 14"</h5>
+                <p class="card-text">From $1999 or $108/,o for 12 mo.*</p>
+                <a href="#" class="btn btn-primary" onclick="addToCart('Macbook Pro 14&quot;', 1999)">Buy</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img src="photos/apple5.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">imac 24"</h5>
+                <p class="card-text">From $1299 or $108/,o for 12 mo.*</p>
+                <a href="#" class="btn btn-primary" onclick="addToCart('iMac 24&quot;', 1299)">Buy</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="card">
+              <img src="photos/apple6.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Mac mini</h5>
+                <p class="card-text">From $1299 or $108/,o for 12 mo.*</p>
+                <a href="#" class="btn btn-primary" onclick="addToCart('Mac mini', 1299)">Buy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container text-center">
+          <p>&copy; MJStore 2023 by Murat&Josh </p>
+          <div class="social-icons">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </footer>
+      <script src="script.js"></script>
+    </body>
+  </html>
+  
