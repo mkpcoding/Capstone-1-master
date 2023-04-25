@@ -43,3 +43,9 @@
   background-color:rgb(4, 4, 4);
   padding: 0.5rem 3rem; /* Reduce the padding of the navbar */; 
 }
+
+/* to ensure the cards are the same size */ 
+.card-img-top {
+  max-height: 250px;
+  object-fit: cover;
+}
