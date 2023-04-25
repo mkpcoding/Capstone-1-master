@@ -97,7 +97,7 @@ function updateTotalCost() {
   document.getElementById("totalCost").textContent = totalCost.toFixed(2);
 }
 
-function checkout() {
+function payment() {
   // Clear the cart and display a success message
   clearCart();
   displayCart();
@@ -109,4 +109,5 @@ document.addEventListener("DOMContentLoaded", () => {
   if (currentPage === "checkout.html") {
     displayCart();
   }
-});
+})
+;
